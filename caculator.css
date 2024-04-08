@@ -24,6 +24,7 @@ body{
     font-size: 5rem;
     text-align: left;
     background-color: hsl(0, 0%, 20%);
+    color: #fff;
 }
 #keys{
     display: grid;
@@ -50,4 +51,7 @@ button:active{
 }
 .operator_btn{
     background-color: hsl(39, 100%, 50%);
+}
+.operator_btn:hover{
+    background-color: hsl(39, 100%, 65%);
 }
